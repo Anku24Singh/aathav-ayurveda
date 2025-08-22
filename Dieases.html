@@ -18,6 +18,33 @@
     <link href="css/coloring.css" rel="stylesheet" type="text/css" >
     <!-- color scheme -->
     <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css" >
+    <style>
+/* Default - 3 columns for large screens */
+.disorder-list {
+  columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
+  column-gap: 40px;
+}
+
+/* Medium screens (tablet) → 2 columns */
+@media (max-width: 992px) {
+  .disorder-list {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
+}
+
+/* Small screens (phones) → 1 column */
+@media (max-width: 576px) {
+  .disorder-list {
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+  }
+}
+</style>
 
 </head>
 
@@ -75,7 +102,7 @@
                                     <li><a class="menu-item" href="Dieases.html" style="color: rgb(248, 243, 243);">Diseases</a></li>
                                     <li><a class="menu-item" href="Yoga_Diet.html" style="color: rgb(255, 248, 248);">Yoga & Diet</a></li>
                                      <li><a class="menu-item" href="facility.html" style="color: rgb(253, 248, 248);">Facility</a></li>
-                                      <li><a class="menu-item" href="Article.html" style="color: rgb(250, 246, 246);">Article & Publications</a></li>
+                                      <!-- <li><a class="menu-item" href="Article.html" style="color: rgb(250, 246, 246);">Article & Publications</a></li> -->
                                     <li><a class="menu-item" href="appointment.html" style="color: rgb(246, 241, 241);">Consultation</a></li>
                                     <li><a class="menu-item" href="contact.html" style="color: rgb(252, 248, 248);">Contact</a></li>
                                 </ul>
@@ -124,271 +151,212 @@
                     </div>
                 </div>
 
-                <div class="row g-4 align-items-center">
-                    <div class="col-lg-4 col-sm-6" style="height: 250px;">
-                        <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s">
-                            <h4 class="bg-color text-light p-3">Hiccough (Hikkaroga)</h4>
-                            <div class="p-3 px-4 mb-4 relative">
-                                <!-- <img src="images/services/1.webp" class="absolute circle mb-4 w-80px end-0 me-4 shadow-soft wow scaleIn" data-wow-delay=".2s" alt=""> -->
-                                <!-- <div class="fs-14 text-dark fw-500">Start from</div> -->
-                                <!-- <div class="mb-3">
-                                    <h2 class="d-inline id-color-2">$150</h2><span class="fs-14">/session</span>
-                                </div> -->
-                                <p>This is an abrupt inspiratory muscle contraction followed immediately by closure of the glottis.</p>
+               <div class="row g-4 align-items-stretch">
+    <div class="col-lg-4 col-sm-6">
+        <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s">
+            <h4 class="bg-color text-light p-3">Hiccough (Hikkaroga)</h4>
+            <div class="p-3 px-4 mb-4 relative">
+                <p>This is an abrupt inspiratory muscle contraction followed immediately by closure of the glottis.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-sm-6">
+        <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s">
+            <h4 class="bg-color text-light p-3">Bronchial Asthma (Shwasaroga)</h4>
+            <div class="p-3 px-4 mb-4 relative">
+                <p>Characterized by episodic airflow obstruction, initially fully reversible. Presents as breathlessness, wheezing, and cough.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-sm-6">
+        <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s">
+            <h4 class="bg-color text-light p-3">Cough (Kasaroga)</h4>
+            <div class="p-3 px-4 mb-4 relative">
+                <p>A primary respiratory symptom due to irritation in the respiratory tract, usually indicative of infection.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-sm-6">
+        <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s">
+            <h4 class="bg-color text-light p-3">Tuberculosis (Rajayakshma)</h4>
+            <div class="p-3 px-4 mb-4 relative">
+                <p>Caused by Mycobacterium tuberculosis, marked by fever, night sweats, and weight loss.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-sm-6">
+        <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s">
+            <h4 class="bg-color text-light p-3">Pulmonary Abscess (Kshatakshina)</h4>
+            <div class="p-3 px-4 mb-4 relative">
+                <p>Localized collection of pus or cavity in the lungs lined by chronic inflammation.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-sm-6">
+        <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s">
+            <h4 class="bg-color text-light p-3">Consumption / Emaciation (Shosha Roga)</h4>
+            <div class="p-3 px-4 mb-4 relative">
+                <p>1. Pneumonia &nbsp;&nbsp;&nbsp;&nbsp; 2. Pleural Effusion <br>
+                   3. Bronchitis &nbsp;&nbsp;&nbsp;&nbsp; 4. Bronchiectasis
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+            </div>
+            </section>
 
-                                <!-- <ul class="ul-style-2 fw-600 text-dark mb-3">
-                                    <li>Personalized</li>
-                                    <li>Confidential</li>
-                                    <li>Effective</li>
-                                </ul> -->
+           <div class="container">
+    <div class="row text-light">
+        <div class="col-lg-6 offset-lg-3 text-center">                            
+            <h2 class="wow fadeInUp" data-wow-delay=".2s" style="color: black;">
+                Disorders of Udakavaha Srotas (Water Regulation)
+            </h2>
+            <div class="spacer-single"></div>
+        </div>
+    </div>
 
-                                <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
-                                    Make Appointment
-                                </a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6" style="height: 250px;">
-                        <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s" >
-                            <h4 class="bg-color text-light p-3">Bronchial Asthma (Shwasaroga)</h4>
-                            <div class="p-3 px-4 mb-4 relative">
-                                <p>Characterized by episodic airflow obstruction, initially fully reversible. Presents as breathlessness, wheezing, and cough.</p>
-                                <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
-                                    Make Appointment
-                                </a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6" style="height: 250px;">
-                        <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s" >
-                            <h4 class="bg-color text-light p-3">Cough (Kasaroga)</h4>
-                            <div class="p-3 px-4 mb-4 relative">
-                                <p>A primary respiratory symptom due to irritation in the respiratory tract, usually indicative of infection.</p>
-                                <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
-                                    Make Appointment
-                                </a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6" style="height: 250px;">
-                        <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s" >
-                            <h4 class="bg-color text-light p-3">Tuberculosis (Rajayakshma)</h4>
-                            <div class="p-3 px-4 mb-4 relative">
-                                <p>Caused by Mycobacterium tuberculosis, marked by fever, night sweats, and weight loss.</p>
-                                <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
-                                    Make Appointment
-                                </a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6" style="height: 250px;">
-                        <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s" >
-                            <h4 class="bg-color text-light p-3">Pulmonary Abscess (Kshatakshina)</h4>
-                            <div class="p-3 px-4 mb-4 relative">
-                                <p>Localized collection of pus or cavity in the lungs lined by chronic inflammation.</p>
-                                <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
-                                    Make Appointment
-                                </a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6" style="height: 250px;">
-                        <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s" >
-                            <h4 class="bg-color text-light p-3">Consumption / Emaciation (Shosha Roga)</h4>
-                            <div class="p-3 px-4 mb-4 relative">
-                                <p>1. Pneumonia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    2. Pleural Effusion <br>
-                                    3. Bronchitis &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    4. Bronchiectasis</p>
-                                <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
-                                    Make Appointment
-                                </a> -->
-                            </div>
-                        </div>
-                    </div>
+    <div class="row g-4 align-items-stretch">
+        <div class="col-lg-4 col-sm-6">
+            <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" 
+                 data-wow-delay=".0s" 
+                 style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
+                <h4 class="bg-color text-light p-3">Polydipsia (Trishna Roga)</h4>
+                <div class="p-3 px-4 mb-4 relative">
+                    <p>Excessive thirst due to dry mucosa or reduced saliva.</p>
                 </div>
             </div>
+        </div>
 
-         </div>
-            </div>
-
-            <div class="container">
-                <div class="row text-light">
-                    <div class="col-lg-6 offset-lg-3 text-center">                            
-                        <!-- <div class="subtitle s2 wow fadeInUp mb-3" style="color: black;">Our Package</div> -->
-                       
-                        <h2 class="wow fadeInUp" data-wow-delay=".2s" style="color: black;">Disorders of Udakavaha Srotas (Water Regulation)</h2>
-                        <!-- <p class="lead">Qui culpa qui consequat officia cillum quis irure aliquip ut dolore sit eu culpa ut irure nisi occaecat dolore adipisicing.</p> -->
-                        <div class="spacer-single"></div>
-                    </div>
-                </div>
-
-                <div class="row g-4 align-items-center">
-                    <div class="col-lg-4 col-sm-6" style="height: 250px;">
-                        <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s" style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
-                            <h4 class="bg-color text-light p-3">Polydipsia (Trishna Roga)</h4>
-                            <div class="p-3 px-4 mb-4 relative">
-                                <!-- <img src="images/services/1.webp" class="absolute circle mb-4 w-80px end-0 me-4 shadow-soft wow scaleIn" data-wow-delay=".2s" alt=""> -->
-                                <!-- <div class="fs-14 text-dark fw-500">Start from</div> -->
-                                <!-- <div class="mb-3">
-                                    <h2 class="d-inline id-color-2">$150</h2><span class="fs-14">/session</span>
-                                </div> -->
-                                <p>Excessive thirst due to dry mucosa or reduced saliva.</p>
-
-                                <!-- <ul class="ul-style-2 fw-600 text-dark mb-3">
-                                    <li>Personalized</li>
-                                    <li>Confidential</li>
-                                    <li>Effective</li>
-                                </ul> -->
-
-                                <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
-                                    Make Appointment
-                                </a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6" style="height: 250px; ">
-                        <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s" style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
-                            <h4 class="bg-color text-light p-3">Diarrhoea (Atisara)</h4>
-                            <div class="p-3 px-4 mb-4 relative">
-                                <p>Frequent (3+ times/day) or loose stools, often with urgency or abdominal discomfort.</p>
-                                <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
-                                    Make Appointment
-                                </a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6" style="height: 250px;">
-                        <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s" style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
-                            <h4 class="bg-color text-light p-3">Dysentery (Pravahika)</h4>
-                            <div class="p-3 px-4 mb-4 relative">
-                                <p>Inflammatory condition of the colon mucosa, often infectious.</p>
-                                <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
-                                    Make Appointment
-                                </a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6" style="height: 250px;">
-                        <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s"style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);" >
-                            <h4 class="bg-color text-light p-3">Cholera/Gastroenteritis (Visuchika)</h4>
-                            <div class="p-3 px-4 mb-4 relative">
-                                <p>Acute vomiting, diarrhoea, and cramps from foodborne infection or irritation.</p>
-                                <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
-                                    Make Appointment
-                                </a> -->
-                            </div>
-                        </div>
-                    </div>
-                   
+        <div class="col-lg-4 col-sm-6">
+            <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" 
+                 data-wow-delay=".0s" 
+                 style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
+                <h4 class="bg-color text-light p-3">Diarrhoea (Atisara)</h4>
+                <div class="p-3 px-4 mb-4 relative">
+                    <p>Frequent (3+ times/day) or loose stools, often with urgency or abdominal discomfort.</p>
                 </div>
             </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+            <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" 
+                 data-wow-delay=".0s" 
+                 style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
+                <h4 class="bg-color text-light p-3">Dysentery (Pravahika)</h4>
+                <div class="p-3 px-4 mb-4 relative">
+                    <p>Inflammatory condition of the colon mucosa, often infectious.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+            <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" 
+                 data-wow-delay=".0s" 
+                 style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
+                <h4 class="bg-color text-light p-3">Cholera/Gastroenteritis (Visuchika)</h4>
+                <div class="p-3 px-4 mb-4 relative">
+                    <p>Acute vomiting, diarrhoea, and cramps from foodborne infection or irritation.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <br>
-            
-            <div class="container" >
-                <div class="row text-light">
-                    <div class="col-lg-6 offset-lg-3 text-center">                            
-                        <!-- <div class="subtitle s2 wow fadeInUp mb-3" style="color: black;">Our Package</div> -->
-                    
-                        <h2 class="wow fadeInUp" data-wow-delay=".2s" style="color: black;">Disorders of Annavaha Srotas (Digestive Tract)</h2>
-                        <!-- <p class="lead">Qui culpa qui consequat officia cillum quis irure aliquip ut dolore sit eu culpa ut irure nisi occaecat dolore adipisicing.</p> -->
-                        <div class="spacer-single"></div>
-                    </div>
-                </div>
 
-                <div class="row g-4 align-items-center">
-                    <div class="col-lg-4 col-sm-6" style="height: 250px;">
-                        <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s"style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
-                            <h4 class="bg-color text-light p-3">Digestive Insufficiency (Agnimandya)</h4>
-                            <div class="p-3 px-4 mb-4 relative">
-                                <!-- <img src="images/services/1.webp" class="absolute circle mb-4 w-80px end-0 me-4 shadow-soft wow scaleIn" data-wow-delay=".2s" alt=""> -->
-                                <!-- <div class="fs-14 text-dark fw-500">Start from</div> -->
-                                <!-- <div class="mb-3">
-                                    <h2 class="d-inline id-color-2">$150</h2><span class="fs-14">/session</span>
-                                </div> -->
-                                <p>Inadequate digestion of food.Reduced digestive power leading to incomplete digestion and discomfort.</p>
 
-                                <!-- <ul class="ul-style-2 fw-600 text-dark mb-3">
-                                    <li>Personalized</li>
-                                    <li>Confidential</li>
-                                    <li>Effective</li>
-                                </ul> -->
+       <div class="container">
+    <div class="row text-light">
+        <div class="col-lg-6 offset-lg-3 text-center">                            
+            <h2 class="wow fadeInUp" data-wow-delay=".2s" style="color: black;">
+                Disorders of Annavaha Srotas (Digestive Tract)
+            </h2>
+            <div class="spacer-single"></div>
+        </div>
+    </div>
 
-                                <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
-                                    Make Appointment
-                                </a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6" style="height: 250px;">
-                        <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s" style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
-                            <h4 class="bg-color text-light p-3">Indigestion (Ajirna)</h4>
-                            <div class="p-3 px-4 mb-4 relative">
-                                <p>Improper digestion due to lack or dilution of gastric enzymes.</p>
-                                <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
-                                    Make Appointment
-                                </a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6" style="height: 250px;">
-                        <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s" style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
-                            <h4 class="bg-color text-light p-3">Constipation, Tympanitis, Flatulence (Anaha, Adhmana, Atopa)</h4>
-                            <div class="p-3 px-4 mb-4 relative">
-                                <p>Excess gas in GIT causing bloating or discomfort.</p>
-                                <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
-                                    Make Appointment
-                                </a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6" style="height: 250px;">
-                        <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s"style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);" >
-                            <h4 class="bg-color text-light p-3">Irritable Bowel Syndrome (Grahani Roga)</h4>
-                            <div class="p-3 px-4 mb-4 relative">
-                                <p>Functional bowel disorder with abdominal pain and irregular bowel movements.</p>
-                                <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
-                                    Make Appointment
-                                </a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6" style="height: 250px;">
-                        <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s" style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);" >
-                            <h4 class="bg-color text-light p-3">Vomiting (Chhardi)</h4>
-                            <div class="p-3 px-4 mb-4 relative">
-                                <p>Expulsion of stomach contents due to obstruction, tumors, etc.</p>
-                                <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
-                                    Make Appointment
-                                </a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6" style="height: 250px;">
-                        <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s" style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
-                            <h4 class="bg-color text-light p-3">Hyperacidity (Amlapitta)</h4>
-                            <div class="p-3 px-4 mb-4 relative">
-                                <p>Gastroesophageal reflux of stomach contents.Excess acid production in the stomach causing burning sensation, nausea, or discomfort</p>
-                                <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
-                                    Make Appointment
-                                </a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6" style="height: 250px;">
-                        <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s"style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);" >
-                            <h4 class="bg-color text-light p-3">Abdominal Swelling (Udar Roga)</h4>
-                            <div class="p-3 px-4 mb-4 relative">
-                                <p>Ascites – fluid accumulation in the peritoneal cavity. Abnormal enlargement of the abdomen due to fluid buildup, gas, or underlying disorders</p>
-                                <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
-                                    Make Appointment
-                                </a> -->
-                            </div>
-                        </div>
-                    </div>
+    <div class="row g-4 align-items-stretch">
+        <div class="col-lg-4 col-sm-6">
+            <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" 
+                 data-wow-delay=".0s"
+                 style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
+                <h4 class="bg-color text-light p-3">Digestive Insufficiency (Agnimandya)</h4>
+                <div class="p-3 px-4 mb-4 relative">
+                    <p>Inadequate digestion of food. Reduced digestive power leading to incomplete digestion and discomfort.</p>
                 </div>
             </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+            <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" 
+                 data-wow-delay=".0s"
+                 style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
+                <h4 class="bg-color text-light p-3">Indigestion (Ajirna)</h4>
+                <div class="p-3 px-4 mb-4 relative">
+                    <p>Improper digestion due to lack or dilution of gastric enzymes.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+            <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" 
+                 data-wow-delay=".0s"
+                 style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
+                <h4 class="bg-color text-light p-3">Constipation, Tympanitis, Flatulence (Anaha, Adhmana, Atopa)</h4>
+                <div class="p-3 px-4 mb-4 relative">
+                    <p>Excess gas in GIT causing bloating or discomfort.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+            <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" 
+                 data-wow-delay=".0s"
+                 style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
+                <h4 class="bg-color text-light p-3">Irritable Bowel Syndrome (Grahani Roga)</h4>
+                <div class="p-3 px-4 mb-4 relative">
+                    <p>Functional bowel disorder with abdominal pain and irregular bowel movements.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+            <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" 
+                 data-wow-delay=".0s"
+                 style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
+                <h4 class="bg-color text-light p-3">Vomiting (Chhardi)</h4>
+                <div class="p-3 px-4 mb-4 relative">
+                    <p>Expulsion of stomach contents due to obstruction, tumors, etc.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+            <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" 
+                 data-wow-delay=".0s"
+                 style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
+                <h4 class="bg-color text-light p-3">Hyperacidity (Amlapitta)</h4>
+                <div class="p-3 px-4 mb-4 relative">
+                    <p>Gastroesophageal reflux of stomach contents. Excess acid production in the stomach causing burning sensation, nausea, or discomfort.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+            <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" 
+                 data-wow-delay=".0s"
+                 style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
+                <h4 class="bg-color text-light p-3">Abdominal Swelling (Udar Roga)</h4>
+                <div class="p-3 px-4 mb-4 relative">
+                    <p>Ascites – fluid accumulation in the peritoneal cavity. Abnormal enlargement of the abdomen due to fluid buildup, gas, or underlying disorders.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <br>
             <div class="container">
                 <div class="row text-light">
@@ -537,6 +505,31 @@
             </div>
         </div>
     </div>
+
+     <div class="col-lg-4 col-sm-6" style="height: 250px;">
+        <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s" style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
+            <h4 class="bg-color text-light p-3">Vascular disorder</h4>
+            <div class="p-3 px-4 mb-4 relative">
+                <p>It is a condition that affects the blood vessels (arteries, veins, or capillaries), disrupting normal blood flow and circulation.</p>
+                <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
+                    Make Appointment
+                </a> -->
+            </div>
+        </div>
+    </div>
+
+     <div class="col-lg-4 col-sm-6" style="height: 250px;">
+        <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s" style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
+            <h4 class="bg-color text-light p-3">Coagulopathy</h4>
+            <div class="p-3 px-4 mb-4 relative">
+                <p>It is a condition in which the blood’s ability to clot is impaired, leading to abnormal bleeding or clotting.</p>
+                <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
+                    Make Appointment
+                </a> -->
+            </div>
+        </div>
+    </div>
+
     <div class="col-lg-4 col-sm-6" style="height: 250px;">
         <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s"style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
             <h4 class="bg-color text-light p-3">Burning Syndrome (Daha Roga)</h4>
@@ -576,7 +569,7 @@
         <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s"style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
             <h4 class="bg-color text-light p-3">Vitiligo/Leucoderma (Shvitra - Kilasa)</h4>
             <div class="p-3 px-4 mb-4 relative">
-                <p>White skin patches with normal surrounding pigmentation. Vitiligo/Leucoderma (Shvitra - Kilasa) is a skin disorder characterized by white patches due to the loss of skin pigment (melanin).</p>
+                <p>It is a skin disorder characterized by white patches due to the loss of skin pigment (melanin).</p>
                 <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
                     Make Appointment
                 </a> -->
@@ -587,7 +580,7 @@
         <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s" style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
             <h4 class="bg-color text-light p-3">Erysipelas (Visarpa Roga)</h4>
         <div class="p-3 px-4 mb-4 relative">
-            <p>Contagious fever with skin inflammation and redness. Erysipelas (Visarpa Roga) is an acute skin infection marked by redness, swelling, heat, and rapidly spreading inflammation.</p>
+            <p>Contagious fever with skin inflammation and redness. Erysipelas (Visarpa Roga) is an acute skin infection marked by redness, swelling, heat.</p>
             <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
                 Make Appointment
             </a> -->
@@ -598,7 +591,8 @@
     <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s" style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
         <h4 class="bg-color text-light p-3">Urticaria (Shitapitta, Udarda, Kotha)</h4>
         <div class="p-3 px-4 mb-4 relative">
-            <p>Sudden itchy skin eruptions (allergic reactions). Urticaria (Shitapitta, Udarda, Kotha) is a skin condition causing sudden red, itchy, and raised rashes or hives due to allergic reactions or other triggers.</p>
+            <p>Sudden itchy skin eruptions (allergic reactions). Urticaria (Shitapitta, Udarda, Kotha) is a skin condition causing sudden red, itchy, and raised rashes.</p>
+            <br>
             <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
                 Make Appointment
             </a> -->
@@ -624,7 +618,7 @@
                 <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s" style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
                     <h4 class="bg-color text-light p-3">Cysts and Tumours (Granthi and Arbuda Roga)</h4>
                     <div class="p-3 px-4 mb-4 relative">
-                       <p>Cysts and Tumours (Granthi and Arbuda Roga) are abnormal growths in body tissues, with cysts being fluid-filled sacs and tumours being solid masses that may be benign or malignant.</p>
+                       <p>Cysts and Tumours (Granthi and Arbuda Roga) are abnormal growths in body tissue.</p>
         
                         <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
                             Make Appointment
@@ -679,7 +673,7 @@
 <h4 class="bg-color text-light p-3">Diabetes Mellitus (Prameha)
 </h4>
 <div class="p-3 px-4 mb-4 relative">
-<p>Diabetes Mellitus (Prameha) is a metabolic disorder characterized by excessive blood sugar levels and frequent urination due to impaired insulin function.</p>
+<p>Diabetes Mellitus (Prameha) is a metabolic disorder characterized by excessive blood sugar levels and frequent urination.</p>
 <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
     Make Appointment
 </a> -->
@@ -707,7 +701,7 @@
         <h4 class="bg-color text-light p-3">Osteoarthritis (Sandhigata Vata)</h4>
         <div class="p-3 px-4 mb-4 relative">
            
-            <p>Osteoarthritis (Sandhigata Vata) is a chronic degenerative joint disease where the imbalance of Vata dosha leads to cartilage deterioration, joint pain, stiffness, swelling, and restricted movement, often worsening with age or overuse.</p>
+            <p>Osteoarthritis (Sandhigata Vata) is a chronic degenerative joint disease where the imbalance of Vata dosha leads to cartilage deterioration, joint pain, stiffness.</p>
             <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
                 Make Appointment
             </a> -->
@@ -718,45 +712,43 @@
     <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s" style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
         <h4 class="bg-color text-light p-3">Rickets (Phakka Roga)</h4>
         <div class="p-3 px-4 mb-4 relative">
-            <p>Rickets (Phakka Roga) is a pediatric skeletal disorder resulting from vitamin D, calcium, or phosphate deficiency, leading to soft, weak, and deformed bones, delayed growth, and symptoms like bowed legs and bone pain</p>
+            <p>Rickets (Phakka Roga) is a pediatric skeletal disorder resulting from vitamin D, calcium.</p>
             <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
                 Make Appointment
             </a> -->
         </div>
     </div>
 </div>
-<div class="col-lg-12 col-sm-12"style="height: 250px;">
-    <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s"style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);" >
-        <h4 class="bg-color text-light p-3">Neurological Disorders (Vata Vyadhi)</h4>
-        <div class="p-3 px-4 mb-4 relative">
-            <p>1.Paralysis (Pakshaghat)
+<div class="col-lg-12 col-sm-12" style="height: auto;">
+    <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" 
+         data-wow-delay=".0s" 
+         style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
 
-                2.Sciatica (Gridhrasi)
-                
-                3.Facial Paralysis (Ardita)
-                
-                4.Lock Jaw (Hanustambha)
-                5.Tongue Paralysis (Jihvastambha) 
-                6.Brachial Plexus Paralysis (Avabahuka) 
-                7.Monoplegia/Paraplegia (Khanja/Pangu) 
-                8.Ankle Sprain (Vatakantaka) 
-                9.Burning in Feet (Padadaha) 
-                10.Tingling in Feet (Padaharsha)
-                11.Prostate Enlargement (Ashtheela)
-                12.Cramps (Khalli) 
-                13.Tetanus (Apatanaka)
-                14.Hysteria (Apatantraka) 
-                15.Parkinson's (Kampavata)
-                16.Convulsions (Akshepaka)
+        <h4 class="bg-color text-light p-3">Neurological Disorders (Vata Vyadhi)</h4>
+
+        <div class="p-3 px-4 mb-4 relative">
+            <p class="disorder-list">
+                1. Paralysis (Pakshaghat)<br>
+                2. Sciatica (Gridhrasi)<br>
+                3. Facial Paralysis (Ardita)<br>
+                4. Lock Jaw (Hanustambha)<br>
+                5. Tongue Paralysis (Jihvastambha)<br>
+                6. Brachial Plexus Paralysis (Avabahuka)<br>
+                7. Monoplegia/Paraplegia (Khanja/Pangu)<br>
+                8. Ankle Sprain (Vatakantaka)<br>
+                9. Burning in Feet (Padadaha)<br>
+                10. Tingling in Feet (Padaharsha)<br>
+                11. Prostate Enlargement (Ashtheela)<br>
+                12. Cramps (Khalli)<br>
+                13. Tetanus (Apatanaka)<br>
+                14. Hysteria (Apatantraka)<br>
+                15. Parkinson's (Kampavata)<br>
+                16. Convulsions (Akshepaka)<br>
             </p>
-            <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
-                Make Appointment
-            </a> -->
-            <br>
         </div>
-        <br>
     </div>
 </div>
+
 
 </div>
 </div>
@@ -800,7 +792,7 @@
     <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s" style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
     <h4 class="bg-color text-light p-3">Sterility (Bandhyatva)</h4>
     <div class="p-3 px-4 mb-4 relative">
-    <p>OSterility (Bandhyatva) is the inability to conceive or achieve pregnancy despite regular, unprotected intercourse due to reproductive system issues in either partner.</p>
+    <p>Sterility (Bandhyatva) is the inability to conceive or achieve pregnancy despite regular, unprotected intercourse due to reproductive system issues in either partner.</p>
     <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
         Make Appointment
     </a> -->
@@ -878,6 +870,50 @@
     </div>
     </div>
     </div>
+
+    <div class="col-lg-4 col-sm-6" style="height: 250px;">
+    <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s" style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
+    <h4 class="bg-color text-light p-3">Renal stone</h4>
+    <div class="p-3 px-4 mb-4 relative">
+    <p>
+        It is a hard deposit of minerals and salts that forms inside the kidneys, commonly known as a kidney stone.
+    </p>
+    <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
+        Make Appointment
+    </a> -->
+    </div>
+    </div>
+    </div>
+
+     <div class="col-lg-4 col-sm-6" style="height: 250px;">
+    <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s" style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
+    <h4 class="bg-color text-light p-3">Ureter stone</h4>
+    <div class="p-3 px-4 mb-4 relative">
+    <p>
+        It is a stone that forms in the kidney and gets stuck in the ureter, the tube that carries urine from the kidney to the bladder.
+    </p>
+    <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
+        Make Appointment
+    </a> -->
+    </div>
+    </div>
+    </div>
+
+    <div class="col-lg-4 col-sm-6" style="height: 250px;">
+    <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s" style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
+    <h4 class="bg-color text-light p-3">Urethral stricture</h4>
+    <div class="p-3 px-4 mb-4 relative">
+    <p>
+        It is a narrowing of the urethra due to scarring, which obstructs the flow of urine from the bladder.
+    </p>
+    <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
+        Make Appointment
+    </a> -->
+    </div>
+    </div>
+    </div>
+
+    </div>
 <br>
     <div class="container">
         <div class="row text-light">
@@ -922,6 +958,51 @@
                 <h4 class="bg-color text-light p-3">Intestinal Obstruction (Alasaka and Vilambika)</h4>
                 <div class="p-3 px-4 mb-4 relative">
                     <p>Intestinal Obstruction (Alasaka and Vilambika) is a condition where the normal flow of intestinal contents is blocked, causing severe abdominal pain, distension, and vomiting.</p>
+                    <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
+                        Make Appointment
+                    </a> -->
+                </div>
+            </div>
+        </div>
+         <div class="col-lg-4 col-sm-6" style="height: 250px;">
+            <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s"style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
+                <h4 class="bg-color text-light p-3">Fistula in ano</h4>
+                <div class="p-3 px-4 mb-4 relative">
+                    
+                    <p>
+                        It is an abnormal tunnel (track) that develops between the anal canal and the skin around the anus.
+                    </p>
+        
+                   
+        
+                    <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
+                        Make Appointment
+                    </a> -->
+                </div>
+            </div>
+        </div>
+         <div class="col-lg-4 col-sm-6" style="height: 250px;">
+            <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s"style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
+                <h4 class="bg-color text-light p-3">Anal Fissure</h4>
+                <div class="p-3 px-4 mb-4 relative">
+                    
+                    <p>
+                        It is a small tear or cut in the lining of the anus, causing pain and bleeding during bowel movements.
+                    </p>
+                    <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
+                        Make Appointment
+                    </a> -->
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6" style="height: 250px;">
+            <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s"style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
+                <h4 class="bg-color text-light p-3">Pilonidal sinus</h4>
+                <div class="p-3 px-4 mb-4 relative">
+                    
+                    <p>
+                        It is a small tunnel or tract under the skin, usually near the tailbone, that often contains hair and may become infected or form an abscess.
+                    </p>
                     <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
                         Make Appointment
                     </a> -->
@@ -1111,23 +1192,13 @@
         </div>
     </div>
 
-     <div class="col-lg-4 col-sm-6" style="height: 250px;">
-        <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s"style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);" >
-            <h4 class="bg-color text-light p-3">Psychosis (Unmada)</h4>
-            <div class="p-3 px-4 mb-4 relative">
-                <p>Psychosis (Unmada) is a severe mental disorder marked by impaired thinking, delusions, hallucinations, and loss of connection with reality.</p>
-                <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
-                    Make Appointment
-                </a> -->
-            </div>
-        </div>
-    </div>
+    
 
      <div class="col-lg-4 col-sm-6" style="height: 250px;">
         <div class="relative bg-white h-100 rounded-10px overflow-hidden wow fadeInUp" data-wow-delay=".0s"style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);" >
             <h4 class="bg-color text-light p-3">Possession Disorders (Bhootonmada)</h4>
             <div class="p-3 px-4 mb-4 relative">
-                <p>Possession Disorders (Bhootonmada) are psychological conditions described in Ayurveda, where abnormal behavior is attributed to external or supernatural influences, resembling severe mental disturbances.</p>
+                <p>Possession Disorders (Bhootonmada) are psychological conditions described in Ayurveda, where abnormal behavior is attributed to external or supernatural influences.</p>
                 <!-- <a class="btn-main btn-light-trans w-100" href="appointment.html">
                     Make Appointment
                 </a> -->
